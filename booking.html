@@ -1,0 +1,95 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<title>Booking</title>
+		<link rel = "stylesheet" href="styles.css">
+				<link rel="shortcut icon" type="image/x-icon" href="https://image.flaticon.com/icons/png/128/3013/3013315.png"/>
+	</head>
+	<body>
+		<div class = "container">
+			<div class = "nav-wrapper">
+				<div class="left-side">
+					<div class = "nav-link-wrapper">
+						<a href="index.html">Home</a>
+					</div>
+					
+					<div class = "nav-link-wrapper active-nav-link">
+						<a href="booking.html">Booking</a>
+					</div>
+					
+					<div class = "nav-link-wrapper">
+						<a href="contact.html">Contact</a>
+					</div>
+					
+					<div class = "nav-link-wrapper">
+						<a href="about.html">About</a>
+					</div>
+					
+					<div class = "nav-link-wrapper">
+						<a href="https://instagram.com/_sawe._" target="_blank" rel="noopener noreferrer">Instagram</a>
+					</div>
+				</div>
+				
+				<div class="right-side">
+					<div class = "brand">
+						<div><b>VICTOR SAWE</b></div>
+					</div>	
+				</div>
+			
+			</div>
+		</div>
+		<div><h1 class="book">Book your session!</h1></div>
+		<div class="booking-container">
+		
+			<div class="booking-time">
+				<h2 class="heading">Studio Hours</h2>
+				<h3 class="heading-days">Monday-Friday</h3>
+				<p>9am-5pm</p>
+				<h3 class="heading-days">Saturday & Sunday</h3>
+				<p>10am-3pm</p>
+				<div style="height: 1px; background-color: #ffffff"></div>
+				<h4 class="heading-phone">Call us: +1 201-754-8027</h4>
+			</div>
+			
+			<div class="booking-form">
+				<form action="booking.php" name="form-1">
+					<h2 class="heading heading-yellow">Reservation Online</h2>
+					<div class="form-field">
+						<p>Your Name:</p>
+						<input type="text" name="name" placeholder="Name" class="form-control-1">
+					</div>
+					<div class="form-field">
+						<p>Your Email:</p>
+						<input type="email" name="email" placeholder="Email" class="form-control-1">
+					</div>
+					<div class="form-field">
+						<p>Date:</p>
+						<input type="date" name="date" class="form-control-1">
+					</div>
+					<div class="form-field">
+						<p>Time:</p>
+						<input type="time" name="time" class="form-control-1">
+					</div>
+					<div class="form-field">
+						<p>Number of people:</p>
+						<select name="select" id="#">
+							<option value="1">1 person</option>
+							<option value="2">2 people</option>
+							<option value="3">3 people</option>
+							<option value="4">4 people</option>
+							<option value="5">5 people</option>
+							<option value="5+">5+ people</option>
+						</select>
+					</div>
+					<button class="btn">Submit</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
+<?php
+	session_start();
+	include "booking.php";
+?>

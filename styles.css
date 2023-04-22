@@ -1,0 +1,231 @@
+body
+{
+	margin: 12px;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.container
+{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.nav-wrapper
+{
+	display:flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+.left-side
+{
+	display: flex;
+}
+.nav-wrapper > .left-side > div
+{
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.nav-link-wrapper
+{
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a
+{
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+.nav-link-wrapper a: hover
+{
+	border-bottom: 1px solid black;
+}
+.nav-link-wrapper a: hover
+{
+	color: black;
+}
+.portfolio-items-wrapper
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper
+{
+	position:relative;
+	margin: 12px;
+}
+.img-text-wrapper img
+{
+	width: 100%;
+}
+.profile-image-wrapper img
+{
+	width: 100%;
+}
+.two-column-wrapper
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 38px;
+}
+.profile-content-wrapper
+{
+	padding: 30px;
+}
+.profile-content-wrapper h1
+{
+	color: #998100;
+}
+.active-nav-link-wrapper
+{
+	border-bottom: 1px solid black;
+}
+.active-nav-link a
+{
+	color: black !important;
+}
+.contact-title
+{
+	margin-top: 20px;
+	color: #00000;
+	text-transform: uppercase;
+	margin: 38px;
+}
+form
+{
+	margin-top: 50px;
+	margin: 38px;
+}
+.form-control
+{
+		width: 600px;
+		background: transparent;
+		border: none;
+		outline: none;
+		border-bottom:1px solid gray;
+		color: #000000;
+		font-size: 18px;
+		font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+		margin-bottom: 16px;
+}
+input
+{
+	height: 45px;
+}
+form .submit
+{
+	background: #998100;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit: hover
+{
+	background-color: #fff;
+	cursor: pointer;
+}
+.booking-container
+{
+	background-color:#fafafa;
+	margin: 20px;
+	box-shadow: rgba(0, 0, 0, .1);
+	display:grid;
+	grid-template-columns: 40% 60%;
+	margin: 38px;
+}
+.booking-time
+{
+	background-color:rgba(0, 0, 0, .95);
+	padding: 50px;
+	outline: 3px dashed #998100;
+	outline-offset: -30px;
+	text-align: center;
+	color: #fff;
+	height:400px;
+}
+.heading
+{
+	font-size:35px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.heading-days
+{
+	color: #998100;
+	font-size: 30px;
+}
+.heading-phone
+{
+	font-size: 20px;
+	color: #fff;
+}
+.booking-form
+{
+	padding: 20px 0;
+	margin: 0 auto;
+	color: #0000;
+}
+.form-1
+{
+	display: grid;
+	grid-row-gap: 20px;
+	height:400px;
+}
+.form-1 pad
+{
+	font-weight:500;
+}
+.form-field
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 2px;
+	color: #000000;
+	border-radius:10px;
+}
+input, select
+{
+	pad: 10px 15px;
+}
+.btn
+{
+	background: #998100;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	width:100%;
+}
+.btn: hover
+{
+	transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+}
+.heading-yellow
+{
+	color:#998100;
+}
+.form-control-1
+{
+		width: 600px;
+		background: transparent;
+		border: none;
+		outline: none;
+		border-bottom:1px solid gray;
+		color: #000000;
+		font-size: 18px;
+		font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+		text-align: right;
+}
+.book
+{
+	margin: 38px;
+}
